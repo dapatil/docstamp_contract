@@ -1,2 +1,2 @@
-# docstamp_contract
-Solidity contract for DocStamp
+# Ethereum Contracts for docstamp.io
+
