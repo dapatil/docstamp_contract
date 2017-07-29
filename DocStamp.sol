@@ -57,7 +57,7 @@ contract DocStamp is Owned, Priced {
     }
 
     function lookup(string sha) constant returns(string, uint) {
-        Record rec = _records[sha];
+        Record memory rec = _records[sha];
         return (rec.email, rec.timeStamp);
     }
 
